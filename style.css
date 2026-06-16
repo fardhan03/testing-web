@@ -23,10 +23,16 @@
     
         .etalase {
             display: flex;
+<<<<<<< HEAD
             flex-wrap: wrap;
             gap: 20px;
             justify-content: center;
             margin-top: 20px;
+=======
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+>>>>>>> 006048994571f17628069e923a11a73a71dd5bd3
         }
         .kartu-produk {
             background-color: white;
@@ -40,6 +46,7 @@
             font-weight: bold;
             font-size: 18px;
         }
+<<<<<<< HEAD
         @media (max-width: 600px) {
             .etalase {
                 flex-direction: column;
@@ -49,3 +56,13 @@
                 width: 100%;
             }
         }
+=======
+@media (max-width: 600px) {
+     .etalase {
+      justify-content: center;
+     }
+     .kartu-produk {
+      width: 100%;
+     }
+}
+>>>>>>> 006048994571f17628069e923a11a73a71dd5bd3
