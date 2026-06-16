@@ -39,3 +39,11 @@
             font-weight: bold;
             font-size: 18px;
         }
+@media (max-width: 600px) {
+     .etalase {
+      justify-content: center;
+     }
+     .kartu-produk {
+      width: 100%;
+     }
+}
