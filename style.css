@@ -42,8 +42,7 @@
         }
 @media (max-width: 1080px) {
             .etalase {
-                flex-direction: column;
-                align-items: center;
+                justify-content: center;
             }
             .kartu-produk {
                 width: 100%;
