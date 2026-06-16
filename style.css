@@ -1,0 +1,51 @@
+ body {
+                background-color:antiquewhite;
+                font-family: Arial, sans-serif;
+            }
+            h1 {
+                color: black;
+                text-align: center;
+            }
+            form {
+                background-color: lightgray;
+                padding: 20px;
+                border-radius: 10px;
+                width: 300px;
+            }
+            button {
+                background-color: darkblue;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+        .etalase {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .kartu-produk {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .harga {
+            color: #ff5722;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        @media (max-width: 600px) {
+            .etalase {
+                flex-direction: column;
+                align-items: center;
+            }
+            .kartu-produk {
+                width: 100%;
+            }
+        }
